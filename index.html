@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/419a2d183c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Heavenly Creps</title>
+  </head>
+
+  <body>
+    <nav class="nav-flex">
+      <div class="btn-flex">
+        <i class="fa-solid fa-bars flex-centered boton" id="burga-btn"></i>
+      </div>
+      <div class="hidden">
+        <div><a href="#main">Inicio</a></div>
+        <div><a href="#fondo2">Nuestras cervezas</a></div>
+        <div><a href="#fondo3">Contacto</a></div>
+        <div><a href="login.html">Log In</a></div>
+      </div>
+    </nav>
+    <main class="main-flex">
+      <h1>Cervezas Nidhog</h1>
+    </main>
+    <section class="img2" id="fondo2">
+      <img src="img/birra1.jpg" alt="" class="birra" />
+      <img src="img/birra2.jpg" alt="" class="birra" />
+      <img src="img/birra3.jpg" alt="" class="birra" />
+      <img src="img/birra4.jpg" alt="" class="birra" />
+    </section>
+    <section class="contact-form" id="fondo3">
+      <div class="divform">
+        <form action="#">
+          <label
+            >Nombre<input type="text" name="Nombre" placeholder="Nombre"
+          /></label>
+
+          <label
+            >Apellido<input type="text" name="Apellido" placeholder="Apellido"
+          /></label>
+
+          <label
+            >email<input type="email" name="email" placeholder="email"
+          /></label>
+        </form>
+      </div>
+
+      <div class="textarea">
+        <textarea name="texto" id="" cols="30" rows="10"></textarea>
+        <input type="submit" name="enviar" id="enviar" placeholder="enviar" value="Enviar"/>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <h2>Maquetado por Maximiliano Rau</h2>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
